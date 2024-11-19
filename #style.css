@@ -1,0 +1,145 @@
+/*reset*/
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing:border-box ;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    width:150px ;
+    height:auto ;
+    align-items:20px ;
+}
+
+header{
+    background: color #f0f0f0; 
+    padding:40px ;
+}
+
+nav{
+    display:flex ;
+    justify-content:space-around ;
+    align-items:center ;
+}
+
+nav ul{
+    list-style:none ;
+    gap:20px ;
+    display:flex;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+.btn-order{
+    background-color:rebeccapurple ;
+    color: #1e08e2;
+    padding:10px20px ;
+    border-radius:10px ;
+}
+
+/*Hero section*/
+#hero{
+    display: flex;
+    font-weight: 100px;
+    justify-self:auto ;
+    align-items:center;
+    padding:20px ;  
+    border-radius: 20px;
+}
+
+.body{
+    background-color: #4df002;
+}
+
+/*product section*/
+.product h2{
+    padding:20px ;
+    font-weight:100px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.product-list{
+    display:flex ;
+    font-weight: 100px;
+    justify-items: center;
+    padding-left: 20px;
+    align-self: auto;
+}
+
+.product{
+    display: inline;
+    padding: 30px;
+    margin:20px ;
+
+}
+
+.product img {
+    background-color: aqua;
+    color: antiquewhite;
+    align-self: auto;
+    border-radius: 10px;
+}
+
+
+/* Testimonial section*/
+.Testimonial {
+    background: #4df002;
+    padding: 30px;
+    text-align: center;
+}
+
+.Testimonial{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+}
+
+.testimonial img{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*Contact us section*/
+.contact{
+    background-color: aliceblue;
+    color: aqua;
+    padding:20px ;
+    justify-content: center;
+}
+
+.from input,
+.from textarea{
+    width:auto ;
+    border-radius:20px ;
+    padding:30px ;
+}
+
+/*Footer section*/
+.Footer{
+    background-color: #4df002;
+    color:antiquewhite;
+    padding:20px ;
+    text-align: center;
+}
+
+.Footer p{
+    margin:10px 0 ;
+    text-align:center ;
+}
+
+.social-icon{
+    margin-bottom: 10px;
+}
+
+.social-icon a img{
+    width: 30px;
+    margin: 0 10px;
+}
